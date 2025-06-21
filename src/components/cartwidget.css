@@ -1,0 +1,8 @@
+.cartwidget{
+  display: flex;
+  align-items: center;
+}
+.logo-cartwidget{
+  width: 50px;
+  height: 50px;
+}
