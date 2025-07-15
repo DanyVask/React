@@ -11,7 +11,8 @@ const ItemListContainer = () => {
 
     return (
         <div className="itemlistcontainer">
-            <h2>Bienvenidos a Pawtopia Shop</h2>
+            <h2 className="welcome-title">PAWTOPIA SHOP</h2>
+            <p className="welcome-p">¡Un lugar donde podrás encontrar todo lo que necesitas para tu mascota!</p>
             {
                 loading ? <Loading /> : <ItemList products={products} />
             }

@@ -1,0 +1,15 @@
+.itemdetailcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.img-itemdetail {
+    width: 80%;
+}
+
+.title-detailcontainer {
+    background-color: black;
+}

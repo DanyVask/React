@@ -1,10 +1,10 @@
-import { ScaleLoader } from "react-spinners";
+import { HashLoader } from "react-spinners";
 import "./loading.css";
 
 const Loading = () => {
     return (
         <div className="loading">
-            <ScaleLoader color="yellow" />
+            <HashLoader color="#ff914d" />
         </div>
     )
 }

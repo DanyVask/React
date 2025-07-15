@@ -9,7 +9,7 @@ const ItemDetailContainer = () => {
     const { product, loading } = useProduct(productId);
 
     return (
-        <div>
+        <div className="itemdetailcontainer">
             {
                 loading ? <Loading /> : <ItemDetail product={product}/>
             }
@@ -17,4 +17,4 @@ const ItemDetailContainer = () => {
     )
 }
 
-export default ItemDetailContainer
+export default ItemDetailContainer;

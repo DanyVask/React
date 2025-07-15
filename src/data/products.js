@@ -6,7 +6,7 @@ const products = [
         price: 20000,
         stock: 23,
         image: "/img/juguete1.jpg",
-        category: "Juguetes"
+        category: "juguetes"
     },
        {
         id: 2,
@@ -15,7 +15,7 @@ const products = [
         price: 20000,
         stock: 14,
         image: "/img/juguete2.jpg",
-        category: "Juguetes"
+        category: "juguetes"
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const products = [
         price: 20000,
         stock: 26,
         image: "/img/juguete3.jpg",
-        category: "Juguetes"
+        category: "juguetes"
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const products = [
         price: 20000,
         stock: 25,
         image: "/img/juguete4.jpg",
-        category: "Juguetes"
+        category: "juguetes"
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const products = [
         price: 20000,
         stock: 23,
         image: "/img/juguete5.jpg",
-        category: "Juguetes"
+        category: "juguetes"
     },
   
     {
@@ -52,7 +52,7 @@ const products = [
         price: 20000,
         stock: 13,
         image: "/img/correa1.jpg",
-        category: "Traillas y Correas"
+        category: "correas"
     },
     {
         id: 7,
@@ -61,7 +61,7 @@ const products = [
         price: 20000,
         stock: 4,
         image: "/img/correa2.jpg",
-        category: "Traillas y Correas"
+        category: "correas"
     },
     {
         id: 8,
@@ -70,7 +70,7 @@ const products = [
         price: 20000,
         stock: 12,
         image: "/img/correa3.jpg",
-        category: "Traillas y Correas"
+        category: "correas"
     },
     {
         id: 9,
@@ -79,7 +79,7 @@ const products = [
         price: 20000,
         stock: 10,
         image: "/img/correa4.jpg",
-        category: "Traillas y Correas"
+        category: "correas"
     },
     {
         id: 10,
@@ -88,7 +88,7 @@ const products = [
         price: 20000,
         stock: 28,
         image: "/img/correa5.jpg",
-        category: "Traillas y Correas"
+        category: "correas"
     },
    
     {
@@ -98,7 +98,7 @@ const products = [
         price: 20000,
         stock: 21,
         image: "/img/cama1.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
     },
     {
         id: 12,
@@ -107,7 +107,7 @@ const products = [
         price: 20000,
         stock: 11,
         image: "/img/cama2.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
     },
     {
         id: 13,
@@ -116,7 +116,7 @@ const products = [
         price: 20000,
         stock: 17,
         image: "/img/cama3.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
     },
     {
         id: 14,
@@ -125,7 +125,7 @@ const products = [
         price: 20000,
         stock: 8,
         image: "/img/cama4.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
     },
     {
         id: 15,
@@ -134,7 +134,7 @@ const products = [
         price: 20000,
         stock: 3,
         image: "/img/cama5.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
    }, 
    {
         name: "Guacal 06",
@@ -142,7 +142,7 @@ const products = [
         price: 20000,
         stock: 5,
         image: "/img/cama6.jpg",
-        category: "Camas y Guacal"
+        category: "camas"
     }
 ]
 

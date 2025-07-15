@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .navbar {
-    background-color: white;
+    background-color: #06D6A0;
     display: flex;
     justify-content: space-around;
-    border-bottom: 5px solid #06D6A0;
 }
 
 .navbar .logo {
@@ -16,13 +18,15 @@
     list-style: none;
 }
 
-.categories li {
-    padding: 0 40px;
-    font-size: 20px;
+.categories .category {
+    color: rgb(33, 33, 33);
+    padding: 0 30px;
+    font-family: "Londrina Solid", sans-serif;
+    font-size: 26px;
     text-decoration: none;
 }
 
 .categories li:hover{
   cursor: pointer;
-  border-bottom: 5px solid rgb(196, 194, 69);
+  border-bottom: 4px solid #ff914d;
 }
