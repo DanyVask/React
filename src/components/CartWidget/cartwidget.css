@@ -13,3 +13,7 @@ p {
   font-size: 25px;
   padding: 0 8px;
 }
+
+.cartwidget p li:hover{
+  cursor: pointer;
+}

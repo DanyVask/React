@@ -37,17 +37,3 @@
     color: #26547C;
 }
 
-button {
-    font-family: "Poppins", sans-serif;
-    margin-top: 20px;
-    font-size: 20px;
-    background-color: #EF476F;
-    color: white;
-    border: none;
-    border-radius: 35px;
-    padding: 10px 30px;
-    margin-top: 15px;
-        &:hover {
-            background-color: #dc355c;
-        }
-}

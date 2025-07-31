@@ -1,0 +1,138 @@
+.cart{
+  margin: 50px 150px;
+  align-items: center;
+}
+
+.title-cart{
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #ff914d;
+  margin: 70px;
+}
+
+.subtitles-cart {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  color: #26547c;
+  font-size: 18px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.subtitles-cart p {
+  margin: 0;
+}
+
+.item-cart {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  align-items: center;
+  text-align: center;
+  background-color: #26547c22;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.item-cart p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.img-item-cart{
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  justify-self: center;
+  align-self: center;
+}
+
+.img-item-cart img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.delete-item-cart{
+  width: 100px;
+  justify-self: center;
+  align-self: center;
+}
+
+.delete-item-cart:hover{
+  cursor: pointer;
+}
+
+.info-cart{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-size: 20px;
+}
+
+.text-info-cart{
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.button-continue-cart{
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #EF476F;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 30px;
+  margin-top: 15px;
+    &:hover {
+      background-color: #dc355c;
+      cursor: pointer;
+    }
+}
+
+.button-delete-cart{
+  font-size: 18px;
+}
+
+.button-delete-cart:hover{
+  cursor: pointer;
+}
+.button-continue-cart:hover{
+  cursor: pointer;
+}
+
+/*Empty cart styles*/
+.empty-cart{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Londrina Solid", sans-serif;
+  font-size: 40px;
+  color: #26547c;
+}
+
+.button-home-empty-cart{
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #EF476F;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 30px;
+  margin-top: 15px;
+    &:hover {
+      background-color: #dc355c;
+      cursor: pointer;
+    }
+}

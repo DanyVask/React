@@ -1,0 +1,60 @@
+.checkout{
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-family: "Londrina Solid", sans-serif;
+  color: #ff914d;
+  text-align: center;
+}
+
+.checkout p {
+  font-family: "Poppins", sans-serif;
+  color: #26547c;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/*Form*/
+
+.form-checkout {
+  width: 450px;
+}
+
+.content-input{
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-input input{
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 15px;
+} 
+
+.label {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(33, 33, 33);
+}
+
+.button-send-order{
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #EF476F;
+  color: white;
+  border: none;
+  border-radius: 35px;
+  padding: 10px 30px;
+  margin-top: 15px;
+    &:hover {
+      background-color: #dc355c;
+      cursor: pointer;
+    }
+}
