@@ -12,38 +12,59 @@ const ItemDetail = ({ product = {} }) => {
 
     const addProduct = (quantity) => {
         const productCart = { ...product, quantity };
+        const result = addProductInCart(productCart);
 
-        addProductInCart(productCart);
-
-        toast.success(
-            <div>
-                <p style={{
-                fontFamily: "'Poppins', sans-serif",
-                color: "white",
-                fontWeight: 600,
-                fontSize: 20,
-                margin: 0
+        if (result === "new") {
+            toast.success(
+                <div style={{
+                    fontFamily: "'Poppins', sans-serif",
+                    color: "white",
+                    fontWeight: 600,
+                    fontSize: 20,
+                    margin: 0
                 }}>
-                    {product.name} agregado al carrito
-                </p>
-                <Link to="/cart" style={{
-                fontFamily: "'Poppins', sans-serif",
-                fontWeight: 600,
-                color: "white",
-                textDecoration: "underline",
-                padding: 10
+                    <p>{product.name} agregado al carrito</p>
+                    <Link to="/cart" style={{ 
+                        fontFamily: "'Poppins', sans-serif",
+                        fontWeight: 600,
+                        color: "white",
+                        textDecoration: "underline",
+                        padding: 10
+                     }}>Ir al carrito</Link>
+                </div>,
+                {
+                    autoClose: 3000,
+                    className: "alert-toast",
+                    closeButton: true,
+                }
+            );
+        } else if (result === "updated") {
+            toast.info(
+                <div style={{
+                    fontFamily: "'Poppins', sans-serif",
+                    color: "white",
+                    fontWeight: 600,
+                    fontSize: 15,
+                    margin: 0
                 }}>
-                    Ir al carrito
-                </Link>
-            </div>,
-            {
-                autoClose: 3000,
-                className: "alert-toast",
-                closeButton: true,
-            }
-        );
-
+                    <p>{product.name} ya estaba en el carrito. Se actualizó la cantidad.</p>
+                    <Link to="/cart" style={{ 
+                        fontFamily: "'Poppins', sans-serif",
+                        fontWeight: 600,
+                        color: "white",
+                        textDecoration: "underline",
+                        padding: 10
+                     }}>Ver carrito</Link>
+                </div>,
+                {
+                    autoClose: 3000,
+                    className: "alert-toast",
+                    closeButton: true,
+                }
+            );
+        }                   
     };
+
 
     return (
         <div className="item-detail-container">

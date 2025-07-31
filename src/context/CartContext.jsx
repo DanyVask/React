@@ -6,21 +6,24 @@ const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
 
     const addProductInCart = (newProduct) => {
-        const existingProduct = cart.find(product => product.id === newProduct.id);
+    const existingProduct = cart.find(product => product.id === newProduct.id);
 
-        if (existingProduct) {
-            const updatedCart = cart.map(product => {
-                if (product.id === newProduct.id) {
-                    return {
-                        ...product,
-                        quantity: product.quantity + newProduct.quantity
-                    };
-                }
-                return product;
-            });
-            setCart(updatedCart);
+    if (existingProduct) {
+        const updatedCart = cart.map(product => {
+            if (product.id === newProduct.id) {
+                return {
+                    ...product,
+                    quantity: product.quantity + newProduct.quantity
+                };
+            }
+            return product;
+        });
+        setCart(updatedCart);
+        
+        return "updated";
         } else {
             setCart([...cart, newProduct]);
+            return "new";
         }
     };
 
